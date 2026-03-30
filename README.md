@@ -1,5 +1,9 @@
 # @shipitandpray/pretext-slides
 
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://shipitandpray.github.io/pretext-slides/) [![GitHub](https://img.shields.io/github/stars/ShipItAndPray/pretext-slides?style=social)](https://github.com/ShipItAndPray/pretext-slides)
+
+> **[View Live Demo](https://shipitandpray.github.io/pretext-slides/)**
+
 Canvas-powered presentation tool built on [Pretext](https://github.com/chenglou/pretext). Write slides in markdown, present at any resolution with perfect text scaling.
 
 ## Why?
