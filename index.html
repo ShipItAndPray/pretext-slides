@@ -74,8 +74,17 @@
     </div>
   </div>
 
+  <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.3.1",
+        "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+        "@chenglou/pretext": "https://esm.sh/@chenglou/pretext@0.0.3"
+      }
+    }
+  </script>
   <script type="module">
-    import { parseMarkdownSlides, SlideCanvas, SlideNavigation, lightTheme, darkTheme, layoutSlide, renderText, renderCode, renderBackground, renderProgressBar, renderSlideNumber } from './src/index.ts'
+    import { parseMarkdownSlides, SlideCanvas, SlideNavigation, lightTheme, darkTheme, layoutSlide, renderText, renderCode, renderBackground, renderProgressBar, renderSlideNumber } from './dist/index.js'
 
     const sampleMarkdown = `---
 theme: dark
